@@ -1,0 +1,53 @@
+@relation diabetic_data_clean
+
+@attribute race {Caucasian,Other,AfricanAmerican,Hispanic,Asian}
+@attribute gender {Male,Female}
+@attribute age {[80-90),[70-80),[50-60),[60-70),[30-40),[40-50),[10-20),[0-10),[20-30),[90-100)}
+@attribute admission_type_id numeric
+@attribute discharge_disposition_id numeric
+@attribute admission_source_id numeric
+@attribute time_in_hospital numeric
+@attribute num_lab_procedures numeric
+@attribute num_procedures numeric
+@attribute num_medications numeric
+@attribute number_outpatient numeric
+@attribute number_emergency numeric
+@attribute number_inpatient numeric
+@attribute diag_1 {circulatory,Genitourinary,diabetes,digestive,injury,other,neoplasms,respiratory,Musculoskeletals}
+@attribute diag_2 {circulatory,diabetes,other,Genitourinary,digestive,respiratory,injury,Musculoskeletals,neoplasms}
+@attribute diag_3 {circulatory,other,respiratory,diabetes,Genitourinary,injury,digestive,Musculoskeletals,neoplasms}
+@attribute number_diagnoses numeric
+@attribute max_glu_serum {None,>200,>300,Norm}
+@attribute A1Cresult {'to high',normal}
+@attribute metformin {Steady,No,Up,Down}
+@attribute repaglinide {No,Steady,Up,Down}
+@attribute nateglinide {No,Steady,Up,Down}
+@attribute chlorpropamide {No,Steady}
+@attribute glimepiride {No,Steady,Down,Up}
+@attribute acetohexamide {No}
+@attribute glipizide {No,Steady,Up,Down}
+@attribute glyburide {Steady,No,Down,Up}
+@attribute tolbutamide {No,Steady}
+@attribute pioglitazone {No,Steady,Down,Up}
+@attribute rosiglitazone {No,Steady,Up,Down}
+@attribute acarbose {No,Steady,Up,Down}
+@attribute miglitol {No,Steady,Down,Up}
+@attribute troglitazone {No}
+@attribute tolazamide {No,Steady,Up}
+@attribute examide {No}
+@attribute citoglipton {No}
+@attribute insulin {No,Up,Steady,Down}
+@attribute glyburide.metformin {No,Steady,Down,Up}
+@attribute glipizide.metformin {No,Steady}
+@attribute glimepiride.pioglitazone {No}
+@attribute metformin.rosiglitazone {No,Steady}
+@attribute metformin.pioglitazone {No}
+@attribute change {Ch,No}
+@attribute diabetesMed {Yes,No}
+@attribute readmitted {NO,>30,<30}
+
+@data
+Caucasian,Male,[80-90),1,3,7,6,64,3,18,0,0,0,circulatory,circulatory,circulatory,7,None,?,Steady,No,No,No,No,No,No,Steady,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Ch,Yes,NO
+Caucasian,Female,[70-80),1,3,7,5,34,0,17,0,0,1,circulatory,circulatory,other,7,None,?,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Up,No,No,No,No,No,Ch,Yes,>30
+Other,Female,[50-60),1,1,7,2,53,0,6,0,0,0,Genitourinary,diabetes,circulatory,3,None,?,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Up,No,No,No,No,No,Ch,Yes,NO
+Caucasian,Male,[60-70),1,2,7,1,59,0,12,0,0,0,circulatory,circulatory,respiratory,7,None,?,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Steady,No,No,No,No,No,No,Yes,NO
