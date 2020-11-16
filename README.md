@@ -1,29 +1,20 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### WekaProgram purpose ###
 
-### How do I get set up? ###
+This program to calculated the expected values of a dataset while using machine learning.
+it can build a weka alogrithm model of use a previous build model to calculate the accurarcy in which the model can predict the classifier value.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
 
-### Contribution guidelines ###
+### usage ###
 
-* Writing tests
-* Code review
-* Other guidelines
+data file to build a model. or model file from weka
+file that contains the instances to be classified.
+
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+for questions contact:
+k.reijntjens@st.hanze.nl
