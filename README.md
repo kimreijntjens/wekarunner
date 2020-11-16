@@ -10,8 +10,10 @@ it can build a weka alogrithm model of use a previous build model to calculate t
 
 ### usage ###
 
-data file to build a model. or model file from weka
-file that contains the instances to be classified.
+Data file to build a model, or model file from weka.
+
+
+And a file that contains the instances to be classified.
 
 
 ### Who do I talk to? ###
