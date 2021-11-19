@@ -10,7 +10,10 @@ it can build a weka alogrithm model of use a previous build model to calculate t
 
 ### usage ###
 
-Data file to build a model, or model file from weka.
+commandline:
+-f <data.arff> 
+
+this is the file containing the unknown, yet to be classified instances.
 
 
 And a file that contains the instances to be classified.
