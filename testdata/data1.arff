@@ -1,5 +1,4 @@
 @relation data1
-
 @attribute sex {Male,Female}
 @attribute index numeric
 @attribute 'Frontal lobe' numeric
@@ -8,7 +7,6 @@
 @attribute 'Carapace width' numeric
 @attribute 'Body depth' numeric
 @attribute species {Blue,Orange}
-
 @data
 Male,1,8.1,6.7,16.1,19,7,Blue
 Male,2,8.8,7.7,18.1,20.8,7.4,Blue
